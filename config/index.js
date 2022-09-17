@@ -30,7 +30,7 @@ export const config = {
     // 金山每日一句
     CIBA: false,
     // 每日一言
-    oneTalk: true,
+    oneTalk: false,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -44,7 +44,7 @@ export const config = {
     horoscope: true,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage: false,
   },
 
   /** 每日一言 */
