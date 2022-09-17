@@ -24,7 +24,7 @@ export const config = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
@@ -32,7 +32,7 @@ export const config = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -44,7 +44,7 @@ export const config = {
     horoscope: true,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: false,
+    birthdayMessage: true,
   },
 
   /** 每日一言 */
@@ -183,7 +183,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 1,
 
   /** 日期相关 */
 
